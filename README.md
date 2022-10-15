@@ -1,4 +1,4 @@
-# java-scaffolder ||||
+# java-scaffolder -|||||-
 
 ## Setting up an IDE
 https://docs.micronaut.io/latest/guide/index.html#ideSetup
