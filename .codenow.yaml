@@ -1,6 +1,11 @@
 build:
   pipelines:
-    triggers: []
+    triggers:
+      - pipeline: java-maven-app-preview
+        enabled: true
+        branch: main
+        deployment:
+          enabled: false
     preview:
       pipeline: java-maven-app-preview
     release:
