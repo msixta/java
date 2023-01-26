@@ -23,7 +23,7 @@ runtime:
   # Image is used as a base image for your runtime container
   image: openjdk:11.0.3-jre-slim-stretch
   # Port on which the service will be exposed
-  port: 7000
+  port: 80
   endpoints:
     external:
       # Expose service to external endpoint
